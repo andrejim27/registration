@@ -1,5 +1,5 @@
 <?php
-include('classes/DB.php');
+include('myphp/connect.php');
 if (isset($_POST['createaccount'])) {
         $username = $_POST['username'];
         $password = $_POST['password'];
